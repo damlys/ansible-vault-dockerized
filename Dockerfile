@@ -1,6 +1,6 @@
-FROM ubuntu:bionic
+FROM ubuntu:eoan
 
-ARG ANSIBLE_VERSION="2.5.1+dfsg-1ubuntu0.1"
+ARG ANSIBLE_VERSION="2.8.3+dfsg-1"
 RUN apt-get update && apt-get install --yes --no-install-recommends \
   ansible=${ANSIBLE_VERSION} \
 && apt-get clean && rm -rf /var/lib/apt/lists/*

@@ -2,14 +2,14 @@ Ansible Vault (dockerized)
 ===
 
 Just a minimalistic
-[Docker image](https://hub.docker.com/repository/docker/damlys/ansible-vault)
+[Docker image](https://hub.docker.com/r/damlys/ansible-vault/)
 with the
 [Ansible Vault](https://docs.ansible.com/ansible/latest/user_guide/vault.html)
 tool.
 
 ```console
-$ docker run damlys/ansible-vault:2.5.1 --version
-ansible-vault 2.5.1
+$ docker run --rm damlys/ansible-vault:2.8.3 --version
+ansible-vault 2.8.3
 ```
 
 ## Example usage
